@@ -1,43 +1,69 @@
-.home-container{
-    padding: 10px;
-    font-size: 21px;
-    text-align: center;
-    border: 1px solid red;
+.home-container {
+  padding: 10px;
+  font-size: 21px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid red;
 }
 
-.home-card{
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: #00285F;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    border: 1px solid orange;
+.home-card {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #00285f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 21px;
+  border: 1px solid orange;
 }
 
-.home-content-container{
-    padding: 10px 25px 10px 15px;
-    border: 1px solid pink;
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px 10px 15px;
+  border: 1px solid pink;
 }
 
 .home-content-container h1 {
-    color: #FFFFFF;
-    font-size: 1em;
-    margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 1em;
+  margin-bottom: 15px;
 }
 
 .home-content-container p {
-    color: #FFFFFF;
-    width: 400px;
-    font-size: 0.8em;
-    margin-bottom: 50px;
+  color: #ffffff;
+  width: 250px;
+  font-size: 0.7em;
+  margin-bottom: 45px;
 }
 
 .home-image-container {
-    padding: 62px 28px 40px 28px;
-    border: 1px solid purple;
+  padding: 62px 28px 40px 28px;
+  border: 1px solid purple;
 }
 
-.home-image-container img{
-    width: 100%;
-    height: auto;
+.home-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.home-subcard {
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 10px;
+  background-color: #ededed;
+  border: 1px solid green;
+}
+
+.home-subcontent-container p {
+  color: #585858;
+  font-size: 1em;
+}
+
+.subcard-button-container {
+  padding: 27px 60px 9px 60px;
+}
+
+.home-subcontent-container {
+  padding-bottom: 20px;
 }

@@ -1,4 +1,5 @@
 import MainImage from 'assets/images/main-image.png';
+import ButtonIcon from 'components/ButtonIcon';
 import Navbar from 'components/Navbar';
 
 import './styles.css';
@@ -11,7 +12,10 @@ const Home = () => {
         <div className="home-card">
           <div className="home-content-container">
             <h1>O carro perfeito para você</h1>
-            <p>Conheça nossos carros e dê mais um passo na realização do seu sonho</p>
+            <p>
+              Conheça nossos carros e dê mais um passo na realização do seu
+              sonho
+            </p>
           </div>
           <div className="home-image-container">
             <img src={MainImage} alt="nome do carro" />
@@ -19,11 +23,11 @@ const Home = () => {
         </div>
 
         <div className="home-subcard">
-          <div className="button">
-            
-          </div>
           <div className="home-subcontent-container">
-            <h1>Comece agora a navegar</h1>
+            <p>Comece agora a navegar</p>
+          </div>
+          <div className="subcard-button-container">
+            <ButtonIcon />
           </div>
         </div>
       </div>
