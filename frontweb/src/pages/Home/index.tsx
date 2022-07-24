@@ -24,10 +24,12 @@ const Home = () => {
 
         <div className="home-subcard">
           <div className="home-subcontent-container">
-            <p>Comece agora a navegar</p>
-          </div>
-          <div className="subcard-button-container">
-            <ButtonIcon />
+            <div className="subcard-button-container">
+              <ButtonIcon />
+            </div>
+            <div className="subcard-text-container">
+              <p>Comece agora a navegar</p>
+            </div>
           </div>
         </div>
       </div>
