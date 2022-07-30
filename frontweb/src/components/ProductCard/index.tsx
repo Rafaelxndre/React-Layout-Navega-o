@@ -14,11 +14,11 @@ const ProductCard = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           nisi
         </p>
-        <button className="btn btn-icon btn-card-car">
+        <button className="btn btn-card-car">
           <h6>COMPRAR</h6>
         </button>
       </div>
     </div>
   );
-}
+};
 export default ProductCard;

@@ -11,10 +11,9 @@ const BuscaCard = () => {
         />
       </div>
       <div className="car-button-busca">
-        <button className="btn btn-icon btn-busca-car">
+        <button className="btn btn-busca-car">
           <h6>BUSCAR</h6>
         </button>
-
       </div>
     </div>
   );
